@@ -3,12 +3,14 @@ This is a simple prototype level data updater script for Gen 8 Random Battles. W
 
 ## Using the script
 1. Have a CSV file of this month's level changes. There are only two columns, 'Species' for the Pokemon and 'Change' to denote the level change. Formatted CSVs can easily be saved from an Excel file. A sample CSV is provided in `levelChanges.csv'.
+
 | Species | Change |
-| ------ | --- |
+| ------- | --- |
 | Bellossom | -2 |
 | Centiskorch | +1 |
 | Hatterene | +2 |
 | Ninjask | 0 |
+
 2. Have a JavaScript Object / JSON file of current random battles levels, an example is provided in `dex.js`.
 3. To run a demonstration of the script, clone this respository to your local computer. Then simply run `node level-updater.js` from your command line or terminal. You can install Node [here](https://nodejs.org/en/download/package-manager/#macos).
 
