@@ -1,5 +1,5 @@
 # level_updater
-This is a simple prototype level data updater script for Gen 8 Random Battles. When input a dictionary of current Pokemon levels, and a dictionary of each Pokemon species and its level change, `level-updater.js` outputs a dictionary of updated levels.
+This is a simple level updater script for Gen 8 Random Battles. When input a dictionary of current Pokemon levels, and a dictionary of each Pokemon species and its level change, `level-updater.js` outputs a dictionary of updated levels.
 
 ## Using the script
 1. Have a CSV file of this month's level changes. There are only two columns, 'Species' for the Pokemon and 'Change' to denote the level change. Formatted CSVs can easily be saved from an Excel file. A sample CSV is provided in `levelChanges.csv'.
