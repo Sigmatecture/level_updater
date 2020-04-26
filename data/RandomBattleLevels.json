@@ -1,0 +1,1727 @@
+[
+    {
+        "species": "venusaur",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "charizard",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "blastoise",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "butterfree",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "butterfree",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "pikachu",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "raichu",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "raichualola",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "nidoqueen",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "nidoking",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "clefable",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "ninetales",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "ninetalesalola",
+        "tier": "uubl",
+        "level": 82
+    },
+    {
+        "species": "crobat",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "vileplume",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "bellossom",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "dugtrio",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "dugtrioalola",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "persian",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "persianalola",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "perrserker",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "arcanine",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "machamp",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "rapidash",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "rapidashgalar",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "slowbro",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "slowking",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "magnezone",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "farfetchd",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "sirfetchd",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "cloyster",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "gengar",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "steelix",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "kingler",
+        "tier": "nubl",
+        "level": 86
+    },
+    {
+        "species": "hitmonlee",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "hitmonchan",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "hitmontop",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "weezing",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "weezinggalar",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "rhyperior",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "blissey",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "kingdra",
+        "tier": "nubl",
+        "level": 86
+    },
+    {
+        "species": "seaking",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "mrmime",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "mrmimegalar",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "mrrime",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "electivire",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "gyarados",
+        "tier": "uubl",
+        "level": 82
+    },
+    {
+        "species": "lapras",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "ditto",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "vaporeon",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "jolteon",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "flareon",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "espeon",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "umbreon",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "leafeon",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "glaceon",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "sylveon",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "snorlax",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "snorlax",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "articuno",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "zapdos",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "moltres",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "mewtwo",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "mew",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "noctowl",
+        "tier": "publ",
+        "level": 88
+    },
+    {
+        "species": "lanturn",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "togekiss",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "xatu",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "azumarill",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "sudowoodo",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "quagsire",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "wobbuffet",
+        "tier": "pu",
+        "level": 80
+    },
+    {
+        "species": "qwilfish",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "shuckle",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "weavile",
+        "tier": "uubl",
+        "level": 82
+    },
+    {
+        "species": "mamoswine",
+        "tier": "uubl",
+        "level": 82
+    },
+    {
+        "species": "corsola",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "corsolagalar",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "cursola",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "octillery",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "delibird",
+        "tier": "pu",
+        "level": 100
+    },
+    {
+        "species": "mantine",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "raikou",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "entei",
+        "tier": "rubl",
+        "level": 84
+    },
+    {
+        "species": "suicune",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "tyranitar",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "lugia",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "hooh",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "celebi",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "linoone",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "obstagoon",
+        "tier": "uubl",
+        "level": 82
+    },
+    {
+        "species": "ludicolo",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "shiftry",
+        "tier": "rubl",
+        "level": 84
+    },
+    {
+        "species": "pelipper",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "gardevoir",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "gallade",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "ninjask",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "shedinja",
+        "tier": "pu",
+        "level": 100
+    },
+    {
+        "species": "sableye",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "mawile",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "manectric",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "roserade",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "wailord",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "torkoal",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "flygon",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "lunatone",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "solrock",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "whiscash",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "crawdaunt",
+        "tier": "uubl",
+        "level": 82
+    },
+    {
+        "species": "claydol",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "milotic",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "dusknoir",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "glalie",
+        "tier": "pu",
+        "level": 72
+    },
+    {
+        "species": "froslass",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "walrein",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "metagross",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "regirock",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "regice",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "registeel",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "latias",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "latios",
+        "tier": "uubl",
+        "level": 82
+    },
+    {
+        "species": "kyogre",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "groudon",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "rayquaza",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "jirachi",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "vespiquen",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "cherrim",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "cherrimsunshine",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "gastrodon",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "drifblim",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "skuntank",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "bronzong",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "garchomp",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "lucario",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "hippowdon",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "drapion",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "toxicroak",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "abomasnow",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "rotom",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "rotomheat",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "rotomwash",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "rotomfrost",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "rotomfan",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "rotommow",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "uxie",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "mesprit",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "azelf",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "dialga",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "palkia",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "heatran",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "regigigas",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "giratina",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "cresselia",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "liepard",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "musharna",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "unfezant",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "gigalith",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "swoobat",
+        "tier": "publ",
+        "level": 88
+    },
+    {
+        "species": "excadrill",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "conkeldurr",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "seismitoad",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "throh",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "sawk",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "whimsicott",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "basculin",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "basculinbluestriped",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "darmanitan",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "darmanitangalar",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "darmanitangalarzen",
+        "tier": "uu",
+        "level": 80
+    },
+    {
+        "species": "maractus",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "crustle",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "scrafty",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "sigilyph",
+        "tier": "rubl",
+        "level": 84
+    },
+    {
+        "species": "cofagrigus",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "runerigus",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "garbodor",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "cinccino",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "gothitelle",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "reuniclus",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "vanilluxe",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "escavalier",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "jellicent",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "galvantula",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "ferrothorn",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "klinklang",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "beheeyem",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "chandelure",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "haxorus",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "beartic",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "cryogonal",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "accelgor",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "stunfisk",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "stunfiskgalar",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "golurk",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "bisharp",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "braviary",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "mandibuzz",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "heatmor",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "durant",
+        "tier": "uubl",
+        "level": 82
+    },
+    {
+        "species": "hydreigon",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "volcarona",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "cobalion",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "terrakion",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "virizion",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "tornadus",
+        "tier": "rubl",
+        "level": 84
+    },
+    {
+        "species": "thundurus",
+        "tier": "uubl",
+        "level": 82
+    },
+    {
+        "species": "reshiram",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "zekrom",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "landorus",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "kyurem",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "kyuremblack",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "kyuremwhite",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "keldeoresolute",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "diggersby",
+        "tier": "uubl",
+        "level": 82
+    },
+    {
+        "species": "talonflame",
+        "tier": "rubl",
+        "level": 84
+    },
+    {
+        "species": "pangoro",
+        "tier": "rubl",
+        "level": 84
+    },
+    {
+        "species": "meowstic",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "meowsticf",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "doublade",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "aegislash",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "aegislashblade",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "aromatisse",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "slurpuff",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "malamar",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "barbaracle",
+        "tier": "rubl",
+        "level": 84
+    },
+    {
+        "species": "heliolisk",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "aurorus",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "hawlucha",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "dedenne",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "goodra",
+        "tier": "rubl",
+        "level": 84
+    },
+    {
+        "species": "trevenant",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "gourgeist",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "gourgeistsmall",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "gourgeistlarge",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "gourgeistsuper",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "avalugg",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "noivern",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "xerneas",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "yveltal",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "zygarde",
+        "tier": "uber",
+        "level": 80
+    },
+    {
+        "species": "decidueye",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "incineroar",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "primarina",
+        "tier": "uubl",
+        "level": 82
+    },
+    {
+        "species": "vikavolt",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "ribombee",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "lycanroc",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "lycanrocmidnight",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "wishiwashischool",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "toxapex",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "mudsdale",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "araquanid",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "shiinotic",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "salazzle",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "bewear",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "tsareena",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "oranguru",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "passimian",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "golisopod",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "pyukumuku",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "typenull",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "silvally",
+        "tier": "publ",
+        "level": 88
+    },
+    {
+        "species": "silvallybug",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "silvallydark",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "silvallydragon",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "silvallyelectric",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "silvallyfairy",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "silvallyfighting",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "silvallyfire",
+        "tier": "publ",
+        "level": 88
+    },
+    {
+        "species": "silvallyflying",
+        "tier": "publ",
+        "level": 88
+    },
+    {
+        "species": "silvallyghost",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "silvallygrass",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "silvallyground",
+        "tier": "publ",
+        "level": 88
+    },
+    {
+        "species": "silvallyice",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "silvallypoison",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "silvallypsychic",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "silvallyrock",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "silvallysteel",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "silvallywater",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "turtonator",
+        "tier": "nubl",
+        "level": 86
+    },
+    {
+        "species": "togedemaru",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "mimikyu",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "drampa",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "dhelmise",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "kommoo",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "tapukoko",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "tapulele",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "tapubulu",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "tapufini",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "solgaleo",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "lunala",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "necrozma",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "necrozmaduskmane",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "necrozmadawnwings",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "marshadow",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "zeraora",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "melmetal",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "rillaboom",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "cinderace",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "inteleon",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "greedent",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "corviknight",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "orbeetle",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "thievul",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "eldegoss",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "dubwool",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "drednaw",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "boltund",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "coalossal",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "flapple",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "appletun",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "appletun",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "sandaconda",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "cramorant",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "barraskewda",
+        "tier": "rubl",
+        "level": 84
+    },
+    {
+        "species": "toxtricity",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "toxtricitylowkey",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "centiskorch",
+        "tier": "rubl",
+        "level": 84
+    },
+    {
+        "species": "grapploct",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "polteageist",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "hatterene",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "grimmsnarl",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "grimmsnarl",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "alcremie",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "falinks",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "pincurchin",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "frosmoth",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "stonjourner",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "eiscue",
+        "tier": "pu",
+        "level": 88
+    },
+    {
+        "species": "indeedee",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "indeedeef",
+        "tier": "nu",
+        "level": 86
+    },
+    {
+        "species": "morpeko",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "copperajah",
+        "tier": "ru",
+        "level": 84
+    },
+    {
+        "species": "copperajah",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "dracozolt",
+        "tier": "uubl",
+        "level": 82
+    },
+    {
+        "species": "arctozolt",
+        "tier": "publ",
+        "level": 88
+    },
+    {
+        "species": "dracovish",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "arctovish",
+        "tier": "publ",
+        "level": 88
+    },
+    {
+        "species": "duraludon",
+        "tier": "uu",
+        "level": 82
+    },
+    {
+        "species": "dragapult",
+        "tier": "ou",
+        "level": 80
+    },
+    {
+        "species": "zacian",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "zaciancrowned",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "zamazenta",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "zamazentacrowned",
+        "tier": "uber",
+        "level": 72
+    },
+    {
+        "species": "eternatus",
+        "tier": "uber",
+        "level": 72
+    }
+]

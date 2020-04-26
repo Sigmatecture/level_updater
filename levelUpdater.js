@@ -1,7 +1,7 @@
-var dex =  require('./dex.js');
-var fs = require('fs');
+var dex   = require('./data/dex.js');
+var fs    = require('fs');
 
-/* Utility function to read stats into JSON.
+/* Utility function to read level change statistics into JSON.
   @input    csv       CSV file path of level changes for each species. 
                       Must contain two columns: 'Species' and 'Change'.
   @return   updates   JSON array of level change for each species.
@@ -29,7 +29,7 @@ function formatUpdates(csv){
 
   return updates;
 
-}
+};
 
 /* Update levels of species. Wraps formatUpdates().
   @input  csv       Path of csv file containing level updates. 
@@ -37,27 +37,28 @@ function formatUpdates(csv){
           reverse   Makes each level change the opposite sign (for reversing a previous change).
   @return levels    Updated levels as a JavaScript object.
 */
-function updateLevels(csv, dexLevels=dex, reverse = false) {
+function updateLevels(csv, dex, reverse = false) {
+
   let sign = (reverse ? -1 : 1);
   // Call JSON parser on manually-updated CSV file
   changes = formatUpdates(csv);
   changes.forEach( function(entry) {
-    dexLevels[entry.species].level += entry.change * sign
+    dex[entry.species].level += entry.change * sign
   });
 
-  return dexLevels
+  return dex;
 
-}
+};
 
-updates = formatUpdates(('./levelChanges.csv'));
+
+/* Test execution */
+updates = formatUpdates('./stats/levelChanges.csv');
 console.log("Changes to levels:\n" + JSON.stringify(updates, undefined, 1));
 
 // The main function call
 console.log("Initial levels: ");
 console.log(dex);
-updated = updateLevels('./levelChanges.csv');
+updated = updateLevels('./stats/levelChanges.csv', dex);
 console.log("Updated levels: ");
 console.log(updated);
-
-
 
