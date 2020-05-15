@@ -33,7 +33,7 @@ function formatUpdates(csv){
 
 /* Update levels of species. Wraps formatUpdates().
   @input  csv       Path of csv file containing level updates. 
-          dexLevels JSON object of every species and its current level
+          dex       JSON object of every species and its current level
           reverse   Makes each level change the opposite sign (for reversing a previous change).
   @return levels    Updated levels as a JavaScript object.
 */

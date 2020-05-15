@@ -1,10 +1,11 @@
 let fs = require('fs');
 
 let BattlePokedex = require('./data/BattlePokedex.js');
-let FormatsGen8 = require('./data/FormatsData_Gen8.js');
-let FormatsGen7 = require('./data/FormatsData_Gen7.js');
+let FormatsGen8 = require('./data/FormatsData_Gen8_old.js');
+let FormatsGen7 = require('./data/FormatsData_Gen7_old.js');
 
-/* Calculate levels of current random battles pokemon. 
+/*  Calculate levels of Random Battles Pokemon, 
+    using the old tiering system.
 */
 function calcLevels() {
 
@@ -18,51 +19,68 @@ function calcLevels() {
     delibird: 100, shedinja: 100, // add DLC pokemon here
   };
 
-  randDex = []
+  randDex = {}
   // Iterate through Gen 8 species with random battle sets.
   for (const species in FormatsGen8)  {
-
-    name = species;
-    data = FormatsGen8[species];
+    console.log(species);
+    let name = species;
+    let data = FormatsGen8[species];
     let tier  = null;
     let level = -1;
+    // let gmax = false;
 
-    if (data.randomBattleMoves == undefined) {
+    if (customScale[species] !== undefined) {
+      level = customScale[species];
+    } else if (data.randomBattleMoves == undefined) {
       continue;
     } else {
-      console.log(species);
       // Gmax formes default to their base species' level, for now
       if (species.slice(species.length-4) === "gmax") {
+        // gmax == true;
         name = species.substring(0, species.length - 4);
+      } else if (species === "aegislashblade") {
+        name = species.substring(0, species.length - 5);
+      } else if (species === "wishiwashischool") {
+        name = species.substring(0, species.length - 6);
+      } else if (species === "cherrimsunshine") {
+        name = species.substring(0, species.length - 8);
       }
 
       if (data.tier !== "Illegal" && data.tier !== undefined) {
-        tier = data.tier.toLowerCase();
+        tier = FormatsGen8[name].tier;
       } else {
-        tier = FormatsGen7[name].tier.toLowerCase();
+        tier = FormatsGen7[name].tier;
       }
 
-      if (customScale[species] !== undefined) {
-        level = customScale[species];
-      } else {
-        level = levelScale[tier];
-      }
-      
+      tier = tier.toLowerCase().replace(/[{()}]/g, '')
+      level = levelScale[tier];
     } 
-    randDex.push({species: name, tier: tier, level: level });
+
+    data.randomBattleLevel = level;
+    randDex[species] = data;
 
   };
 
-  result = JSON.stringify(randDex);
-  randDex = JSON.parse(result);
+  randDex = JSON.stringify(randDex);
+  randDex = JSON.parse(randDex);
 
   return randDex;
 
 };
 
+function CleanJSONQuotesOnKeys(stringJSON) {
+    return stringJSON.replace(/"(\w+)"\s*:/g, '$1:');
+}
 
-randDex = calcLevels();
-console.log(JSON.stringify(randDex,undefined,4));
-fs.writeFileSync("./data/RandomBattleLevels.json", JSON.stringify(randDex,undefined,4));
+
+oldLevels = calcLevels();
+// oldLevels = CleanJSONQuotesOnKeys(JSON.stringify(randDex,undefined,4));
+// oldLevels = JSON.parse(oldLevels);
+console.log(oldLevels);
+
+const declaration = "export const BattleFormatsData: {[k: string]: SpeciesFormatsData} = ";
+oldLevels = CleanJSONQuotesOnKeys(JSON.stringify(oldLevels,undefined,4));
+
+fs.writeFileSync("./data/FormatsData_Gen8.ts", declaration + oldLevels);
 
 
