@@ -69,9 +69,6 @@ function calcLevels() {
     } 
 
     newData = {}
-    if (data.isNonstandard !== undefined) {
-      newData.isNonstandard = data.isNonstandard;
-    }
     if (data.randomBattleMoves !== undefined) {
       newData.randomBattleMoves = data.randomBattleMoves;
     }
@@ -80,6 +77,9 @@ function calcLevels() {
     }
     if (data.randomDoubleBattleMoves !== undefined) {
       newData.randomDoubleBattleMoves = data.randomDoubleBattleMoves;
+    }
+    if (data.isNonstandard !== undefined) {
+      newData.isNonstandard = data.isNonstandard;
     }
     if (data.tier !== undefined) {
       newData.tier = data.tier;
@@ -104,10 +104,16 @@ oldLevels = calcLevels();
 oldLevels = JSON.stringify(oldLevels,undefined,4);
 oldLevels = oldLevels.replace(/\s+(?=[^[\]]*\])/g, " ");   // replace newlines inside of brackets
 oldLevels = oldLevels.replace(/"(\w+)"\s*:/g, '$1:');      // remove quotes from keys
-oldLevels = oldLevels.replace(/"\n/g, '",\n');             // add commas to end of every line
+oldLevels = oldLevels.replace(/"\n/g, '",\n');             // add commas to end of every quoted line
+oldLevels = oldLevels.replace(/\]\n/g, '],\n');            // add commas to end of every bracket line
+// oldLevels = oldLevels.replace(/[0-9]+(?=\n)/g, ',\n');            // add commas to end of every number line: darmanitangalarzen, keldeoresolute, wishiwashischool
+oldLevels = oldLevels.replace(/\[\s"/g, '["');
+oldLevels = oldLevels.replace(/"\s\]/g, '"]');
+// oldLevels = oldLevels.replace(/}\n/g, '"]');
+
 
 const declaration = "export const BattleFormatsData: {[k: string]: SpeciesFormatsData} = ";
 
-fs.writeFileSync("./data/formats-data.ts", declaration + oldLevels);
+fs.writeFileSync("./data/formats-data.ts", declaration + oldLevels + ";\n");
 
 
