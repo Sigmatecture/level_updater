@@ -22,10 +22,9 @@ function calcLevels() {
   randDex = {}
   // Iterate through Gen 8 species with random battle sets.
   for (const species in FormatsGen8)  {
-    // console.log(species);
+    console.log(species);
     let name = species;
     let data = FormatsGen8[species];
-    // console.log(name);
     let tier  = data.tier;
     let level = undefined;
 
@@ -37,6 +36,7 @@ function calcLevels() {
     } else {
       if (species.slice(species.length-4) === "gmax") { // Gmax formes default to their base species' level
         name = species.substring(0, species.length - 4);
+        tier = FormatsGen8[name].tier;
       } else if (species === "aegislashblade") {
         name = species.substring(0, species.length - 5);
       } else if (species === "wishiwashischool") {
@@ -102,12 +102,12 @@ function calcLevels() {
 
 oldLevels = calcLevels();
 oldLevels = JSON.stringify(oldLevels,undefined,4);
-oldLevels = oldLevels.replace(/\s+(?=[^[\]]*\])/g, " ");
-oldLevels = oldLevels.replace(/"(\w+)"\s*:/g, '$1:');
-// oldLevels = oldLevels.replace(/(^(\w*?,){1}\w*$)/g, ',');
+oldLevels = oldLevels.replace(/\s+(?=[^[\]]*\])/g, " ");   // replace newlines inside of brackets
+oldLevels = oldLevels.replace(/"(\w+)"\s*:/g, '$1:');      // remove quotes from keys
+oldLevels = oldLevels.replace(/"\n/g, '",\n');             // add commas to end of every line
 
 const declaration = "export const BattleFormatsData: {[k: string]: SpeciesFormatsData} = ";
 
-fs.writeFileSync("./data/FormatsData_Gen8.ts", declaration + oldLevels);
+fs.writeFileSync("./data/formats-data.ts", declaration + oldLevels);
 
 
